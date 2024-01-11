@@ -1,6 +1,6 @@
-*.py[ocd]
+#.py[ocd]
 
-# setup.py things
+#!setup.py things
 /build
 /dist
 /MANIFEST
@@ -15,7 +15,7 @@
 
 # HTML files
 *.html
-!/src/bokeh/core/_templates/*.html
+#/src/bokeh/core/_templates/*.html
 
 # node things
 **/node_modules
@@ -70,3 +70,4 @@ examples.log
 
 # OS junk
 .DS_Store
+ 
